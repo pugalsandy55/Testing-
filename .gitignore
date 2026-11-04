@@ -1,39 +1,7 @@
-# Operating System Files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-*.stackdump
-[Dd]esktop.ini
-.DS_Store
-
-# Editor / IDE directories
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Environment Variables & Secrets
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Node / JS
+# Dependencies
 node_modules/
-dist/
-build/
-.npm/
-
-# Python
+.pnp
+.pnp.js
 __pycache__/
 *.py[cod]
 *$py.class
@@ -43,7 +11,65 @@ env/
 venv/
 ENV/
 .venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Temporary / Scratch
-tmp/
-temp/
+# Vite / React / Frontend Build
+frontend/dist/
+frontend/build/
+.cache/
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+
+# Database & Uploads
+*.sqlite
+*.sqlite3
+*.db
+uploads/
+storage/
+temp_uploads/
+exports/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE / OS Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
